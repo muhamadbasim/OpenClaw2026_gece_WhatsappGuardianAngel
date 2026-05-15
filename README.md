@@ -1,46 +1,46 @@
 # 🛡 Whatsapp Guardian Angel
 
-> _An AI agent that watches your WhatsApp inbox like a guardian angel —
-> reading every suspicious message, sniffing out scams, and warning you
-> before you click the wrong link._
-
-**Built for OpenClaw Agenthon 2026** · Indonesian hackathon, 12-hour sprint
-· Team **Gece**
+> _Karena yang paling rentan, bukan yang paling kurang hati-hati —_
+> _melainkan yang paling tidak siap untuk zaman ini._
 
 ---
 
-## 🚀 Mau langsung coba bot-nya?
-
-> 📱 **Simpan nomor:** `+62 823-1399-6991` (nama: 🛡 Guardian Angel)
->
-> Forward pesan WhatsApp mencurigakan ke nomor ini → balasan verdict
-> dalam ~5 detik. Bisa juga di-add ke grup keluarga / komunitas untuk
-> auto-scan setiap pesan.
->
-> ➡ **Tutorial test (Bahasa Indonesia):
-> [`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)**
-> 📖 **Cerita di balik project:
-> [`docs/CERITA.md`](docs/CERITA.md)**
-
----
-
-## 🌙 Cerita di Balik Project Ini
+## 🌙 Bu Ratna
 
 Bu Ratna usia 64. Suaminya sudah lima tahun tiada. Anak-anak besar, sibuk
-di kota lain. Setiap hari, WhatsApp adalah jembatannya ke dunia.
+di kota lain. Setiap hari, WhatsApp adalah jembatannya ke dunia: video
+call cucu di hari Minggu, kabar dari adik di kampung, broadcast doa pagi
+dari grup pengajian.
 
-Suatu malam jam 11, sebuah pesan masuk:
+Lalu suatu malam, jam 11, sebuah pesan masuk:
 
-> _"URGENT! Akun BCA Ibu akan diblokir dalam 1 jam. Verifikasi di_
-> _http://bca-secure-verify.tk/login. Atau kirim kode OTP yang baru saja_
-> _masuk untuk menjaga akses."_
+> _"URGENT! Akun BCA Ibu akan diblokir dalam 1 jam karena masalah_
+> _verifikasi. Untuk menjaga akses tabungan Ibu, mohon verifikasi sekarang_
+> _di link berikut: http://bca-secure-verify.tk/login. Atau kirim kode_
+> _OTP yang baru saja masuk ke nomor Ibu. Terima kasih, Customer Service_
+> _BCA."_
+
+Logo BCA. Bahasa formal. Ada nomor hotline. Ada urgensi.
 
 Tangan Bu Ratna gemetar. Itu uang pensiun mendiang suami — uang yang
-harus cukup sampai akhir hidupnya. Dia hampir mengetik OTP yang baru
-saja masuk lewat SMS.
+harus cukup sampai akhir hidupnya. Kalau benar diblokir, anak-anaknya
+pasti akan repot. Lebih baik dia urus sendiri saja.
 
-Tapi anaknya pernah bilang: _"Bu, kalau ada pesan aneh, forward dulu ke
-kontak Guardian Angel ya."_ Dia ingat, dia forward.
+Dia hampir mengetik OTP yang baru saja masuk lewat SMS.
+
+---
+
+## …tapi
+
+…di kontak WhatsApp Bu Ratna, ada satu nama yang dimasukkan oleh anaknya
+beberapa bulan lalu, ditemani pesan singkat:
+
+> _"Bu, kalau ada pesan WhatsApp aneh, terutama yang minta OTP atau_
+> _password, forward dulu ke nomor ini ya. Namanya **Guardian Angel**._
+> _Dia bisa bantu cek apakah pesan itu beneran atau penipuan."_
+
+Bu Ratna ingat. Sebelum mengetik OTP, dia menahan diri. Dia long-press
+pesan itu, klik **Forward**, dan kirim ke kontak bernama 🛡 Guardian Angel.
 
 Lima detik kemudian, balasan datang:
 
@@ -58,17 +58,67 @@ Lima detik kemudian, balasan datang:
 > • Domain `.tk` dengan kata "secure" dan "verify" untuk meniru BCA
 >
 > _Recommended action:_ Jangan klik link, jangan kirim OTP. Block pengirim.
-> Hubungi BCA hanya lewat call center resmi 1500888.
+> Hubungi BCA hanya lewat aplikasi resmi atau call center 1500888.
 
 Bu Ratna menarik napas. Dia tidak mengetik apa-apa. Dia block nomor itu.
+Dia letakkan handphone-nya. Dia pergi membuat teh.
+
 Malam itu, dia tidur dengan tabungan yang masih utuh.
 
-> 📖 _Cerita lengkap dan latar belakang project ada di_
-> _**[`docs/CERITA.md`](docs/CERITA.md)** — kenapa kami bangun ini, untuk_
-> _siapa, dan apa yang Guardian Angel **bukan** lakukan._
+---
 
-Project ini dibuat untuk satu tujuan sederhana: kalau dipasang di
-handphone ibu kami sendiri, kami bisa tidur lebih nyenyak.
+## Mengapa Project Ini Ada
+
+Penipuan via WhatsApp di Indonesia bukan masalah teknologi.
+
+Ini masalah **kepercayaan dan kerentanan**.
+
+Penjahat siber tahu persis siapa yang paling mudah ditipu:
+- Orang tua yang baru kenal smartphone 5 tahun terakhir
+- Ibu rumah tangga yang sibuk dengan anak
+- Pekerja yang terburu-buru di jam istirahat
+- Anak muda yang panik karena dijanjikan promo terbatas
+
+Mereka semua punya satu kesamaan: **dalam momen panik, mereka tidak punya
+waktu untuk verifikasi.**
+
+Yang mereka butuhkan bukan buku panduan keamanan setebal 200 halaman.
+Yang mereka butuhkan adalah **teman yang bisa ditanya dalam 5 detik**:
+_"Eh ini beneran nggak ya?"_
+
+Project ini dibangun dalam 12 jam untuk OpenClaw Agenthon 2026 oleh tim
+**Gece** — tapi niatnya bukan untuk menang lomba. Niatnya adalah membuat
+sesuatu yang, kalau dipasang di handphone ibu kami sendiri, akan kami
+tidur lebih nyenyak.
+
+Kalau project ini bisa menyelamatkan satu Bu Ratna dari kehilangan uang
+pensiunnya — itu sudah cukup.
+
+> 📖 _Cerita lengkap dengan refleksi "untuk siapa", "apa yang Guardian_
+> _**bukan** lakukan", dan "cara bantu" — baca di:_
+> _**[`docs/CERITA.md`](docs/CERITA.md)**_
+
+---
+
+## 🚀 Mau coba sekarang?
+
+📱 **Simpan nomor di kontak Anda:**
+```
+Nama   : 🛡 Guardian Angel
+Nomor  : +62 823-1399-6991
+```
+
+Forward pesan WhatsApp mencurigakan ke nomor itu → balasan verdict dalam
+~5 detik. Bisa juga di-add ke grup keluarga / komunitas untuk auto-scan
+setiap pesan masuk.
+
+➡ **Tutorial test step-by-step (Bahasa Indonesia):
+[`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)**
+
+---
+
+**Built for OpenClaw Agenthon 2026** · Indonesian hackathon, 12-hour
+sprint · Team **Gece**
 
 ---
 
