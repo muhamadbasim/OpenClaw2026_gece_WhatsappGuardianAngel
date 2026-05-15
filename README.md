@@ -3,6 +3,19 @@
 > _Karena yang paling rentan, bukan yang paling kurang hati-hati —_
 > _melainkan yang paling tidak siap untuk zaman ini._
 
+<p align="center">
+  <a href="https://wa.me/6282313996991?text=URGENT%21%20Akun%20BCA%20Ibu%20akan%20diblokir%20dalam%201%20jam.%20Verifikasi%20sekarang%20di%20http%3A%2F%2Fbca-secure-verify.tk%2Flogin%20atau%20kirim%20kode%20OTP%20Anda%20untuk%20menjaga%20akses.">
+    <img src="https://img.shields.io/badge/🛡%20Coba%20Sekarang-Test%20Phishing%20BCA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" alt="Coba sekarang via WhatsApp"/>
+  </a>
+  &nbsp;
+  <a href="docs/COMPARISON.md">
+    <img src="https://img.shields.io/badge/vs%20ChatGPT%20%26%20Gemini-Lihat%20Perbandingan-blue?style=for-the-badge" alt="Comparison"/>
+  </a>
+</p>
+
+> 💡 _Demo GIF coming soon — sementara itu, klik tombol di atas untuk_
+> _mencoba langsung di WhatsApp Anda._
+
 ---
 
 ## 🌙 Bu Ratna
@@ -107,6 +120,14 @@ pensiunnya — itu sudah cukup.
 Nama   : 🛡 Guardian Angel
 Nomor  : +62 823-1399-6991
 ```
+
+Atau **klik tombol di bawah** — langsung buka WhatsApp dengan pesan test
+phishing pre-filled. Tinggal tap **Send**, tunggu 5 detik, lihat verdict
+Guardian Angel sendiri.
+
+[![Coba Sekarang via WhatsApp](https://img.shields.io/badge/Coba%20Sekarang-Test%20Phishing%20BCA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E)](https://wa.me/6282313996991?text=URGENT%21%20Akun%20BCA%20Ibu%20akan%20diblokir%20dalam%201%20jam.%20Verifikasi%20sekarang%20di%20http%3A%2F%2Fbca-secure-verify.tk%2Flogin%20atau%20kirim%20kode%20OTP%20Anda%20untuk%20menjaga%20akses.)
+&nbsp;
+[![Kirim "halo" ke Guardian Angel](https://img.shields.io/badge/Kirim%20%22halo%22-Mulai%20Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=075E54)](https://wa.me/6282313996991?text=halo)
 
 Forward pesan WhatsApp mencurigakan ke nomor itu → balasan verdict dalam
 ~5 detik. Bisa juga di-add ke grup keluarga / komunitas untuk auto-scan
