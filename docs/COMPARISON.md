@@ -4,6 +4,14 @@
 >
 > Bisa, tapi hasilnya tidak sama. Ini buktinya.
 
+> 📌 **Catatan kredibilitas:** sample output ChatGPT dan Gemini di
+> dokumen ini bersifat **ilustratif** berdasarkan pola respons khas
+> kedua sistem. Sample Guardian Angel adalah **output asli** yang
+> di-capture dari CLI test pada nomor `+62 823-1399-6991` dengan model
+> GPT-5.5 + SOUL.md. Untuk verifikasi independen, jalankan query yang
+> sama ke ChatGPT/Gemini dan ke Guardian Angel — perbedaannya akan
+> jelas.
+
 ---
 
 ## 📋 Test Setup
@@ -30,7 +38,7 @@ menjaga akses.
 | **Bahasa balasan** | Inggris (default) atau Indonesia formal-kaku | **Bahasa Indonesia natural**, sesuai tone WhatsApp |
 | **Format** | Paragraf panjang, paragraf bersambung | **Format WhatsApp**: bold, italic, bullet, fit di 1 layar HP |
 | **Confidence score** | Tidak ada angka | **99%** dengan reasoning |
-| **Action konkret** | "Be careful" / "Verifikasi keasliannya" | **"Hubungi BCA via call center 1500888"** — nomor resmi spesifik |
+| **Action konkret** | "Be careful" / "Verifikasi keasliannya" | **"Hubungi BCA via aplikasi/call center resmi"** — eksplisit mention "jangan klik link dan jangan kirim OTP" |
 | **Konteks lokal** | Tidak tahu yang mana TLD `.tk` lazim di scam Indonesia | Tahu pola scam Indonesia (BCA, Mandiri, BRI, JNE, Shopee Express) |
 | **Pengalaman user** | Buka browser, copy paste, tunggu, baca dinding teks | **Forward pesan, tunggu 5 detik, lihat verdict** — tetap di WhatsApp |
 | **Setup untuk lansia** | Harus install app baru, login, paham UI chatbot | **Cuma simpan kontak WhatsApp** — UI yang sudah dikenal |
@@ -86,14 +94,19 @@ menjaga akses.
 > _Type:_ phishing_link, credential_phishing, bank_impersonation
 > _Confidence:_ 99%
 >
-> _Pesan ini sangat berbahaya — kemungkinan besar mencoba mencuri akses akun BCA Anda._
+> _Pesan ini sangat berbahaya — kemungkinan besar upaya phishing untuk mencuri akses akun BCA._
 >
 > _Kenapa saya pikir begitu:_
-> • Memakai ancaman mendesak ("akun diblokir 1 jam")
-> • Meminta OTP — bank tidak pernah meminta OTP lewat WhatsApp
-> • Domain `.tk` dengan kata "secure" dan "verify" untuk meniru BCA
+> • Memakai ancaman mendesak: akun akan diblokir dalam 1 jam
+> • Meminta kode OTP — bank tidak pernah meminta OTP lewat chat
+> • Link memakai domain mencurigakan `.tk` dan frasa "secure-verify" untuk meniru BCA
 >
-> _Recommended action:_ Jangan klik link, jangan kirim OTP. Block pengirim. **Hubungi BCA hanya lewat aplikasi resmi atau call center 1500888.**
+> _Recommended action:_ Jangan klik link dan jangan kirim OTP. Blokir pengirim, hapus pesan, dan **hubungi BCA hanya lewat aplikasi/website resmi atau call center resmi** jika perlu.
+
+> ✅ Output di atas adalah **capture asli** dari CLI test pada
+> `2026-05-15` dengan agent scam-guardian (model GPT-5.5 + SOUL.md).
+> Output bisa sedikit bervariasi setiap query — tapi format, tone, dan
+> konten kunci konsisten.
 
 **Kenapa lebih baik:**
 - ✅ Bahasa Indonesia natural (bukan terjemahan kaku)
@@ -139,7 +152,7 @@ ChatGPT tidak bisa di-add ke grup keluarga. Guardian Angel bisa, dan otomatis sc
 | Bahasa Indonesia natural | ❌ | 🟡 | ✅ |
 | Threat level + confidence | ❌ | ❌ | ✅ |
 | Format WhatsApp-friendly | ❌ | ❌ | ✅ |
-| Nomor call center spesifik | ❌ | ❌ | ✅ |
+| Action eksplisit & spesifik | ❌ | ❌ | ✅ |
 | User tetap di WhatsApp | ❌ | ❌ | ✅ |
 | Cocok untuk lansia | ❌ | ❌ | ✅ |
 | Bisa di-add ke grup keluarga | ❌ | ❌ | ✅ |

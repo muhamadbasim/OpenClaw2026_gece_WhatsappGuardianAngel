@@ -4,6 +4,14 @@
 > _melainkan yang paling tidak siap untuk zaman ini._
 
 <p align="center">
+  <img src="https://img.shields.io/badge/status-live-25D366?style=flat-square" alt="Status: Live"/>
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/built%20for-OpenClaw%20Agenthon%202026-FF6B35?style=flat-square" alt="OpenClaw Agenthon 2026"/>
+  <img src="https://img.shields.io/badge/team-Gece%20🛡-purple?style=flat-square" alt="Team Gece"/>
+  <img src="https://img.shields.io/badge/bahasa-Indonesia-red?style=flat-square" alt="Bahasa Indonesia"/>
+</p>
+
+<p align="center">
   <a href="https://wa.me/6282313996991?text=URGENT%21%20Akun%20BCA%20Ibu%20akan%20diblokir%20dalam%201%20jam.%20Verifikasi%20sekarang%20di%20http%3A%2F%2Fbca-secure-verify.tk%2Flogin%20atau%20kirim%20kode%20OTP%20Anda%20untuk%20menjaga%20akses.">
     <img src="https://img.shields.io/badge/🛡%20Coba%20Sekarang-Test%20Phishing%20BCA-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=128C7E" alt="Coba sekarang via WhatsApp"/>
   </a>
@@ -138,6 +146,32 @@ setiap pesan masuk.
 
 🎬 **Mau bikin video tutorial sendiri? Skrip lengkap siap rekam:
 [`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md)**
+
+---
+
+## 🔬 Bukti Kerja: Bukan Sekadar ChatGPT Wrapper
+
+Pertanyaan wajar: _"Kenapa tidak pakai ChatGPT atau Gemini saja?"_
+
+Bisa, tapi hasilnya tidak sama. Guardian Angel lebih dari sekadar LLM
+generic — ada **system prompt yang dirancang khusus konteks Indonesia**,
+**format output WhatsApp-friendly**, dan **UX yang tidak memaksa user
+keluar dari WhatsApp**.
+
+| | ChatGPT/Gemini | Guardian Angel |
+|---|:---:|:---:|
+| Bahasa Indonesia natural | 🟡 | ✅ |
+| Threat level + confidence | ❌ | ✅ |
+| Format WhatsApp-friendly | ❌ | ✅ |
+| User tetap di WhatsApp | ❌ | ✅ |
+| Cocok untuk lansia | ❌ | ✅ |
+| Bisa di-add ke grup keluarga | ❌ | ✅ |
+| **Time-to-verdict** | ~30 detik | **~5 detik** |
+
+➡ **Perbandingan lengkap dengan sample output side-by-side:
+[`docs/COMPARISON.md`](docs/COMPARISON.md)**
+
+---
 
 ---
 
@@ -341,6 +375,17 @@ is what you'd actually run in production.
 ---
 
 ## 🧰 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/OpenClaw-2026.5.12-FF6B35?style=flat-square" alt="OpenClaw"/>
+  <img src="https://img.shields.io/badge/Baileys-7.0-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="Baileys"/>
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Pydantic-v2-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic v2"/>
+  <img src="https://img.shields.io/badge/SQLAlchemy-2.0-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+  <img src="https://img.shields.io/badge/Hypothesis-PBT-9D2235?style=flat-square" alt="Hypothesis"/>
+  <img src="https://img.shields.io/badge/GPT--5.5-GrowthCircle-412991?style=flat-square&logo=openai&logoColor=white" alt="GPT-5.5"/>
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+</p>
 
 | Layer | Tech |
 |---|---|
