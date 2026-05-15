@@ -17,47 +17,58 @@
 > dalam ~5 detik. Bisa juga di-add ke grup keluarga / komunitas untuk
 > auto-scan setiap pesan.
 >
-> ➡ **Tutorial test lengkap (Bahasa Indonesia):
+> ➡ **Tutorial test (Bahasa Indonesia):
 > [`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)**
+> 📖 **Cerita di balik project:
+> [`docs/CERITA.md`](docs/CERITA.md)**
 
 ---
 
-## 🌙 The Story
+## 🌙 Cerita di Balik Project Ini
 
-It was a Tuesday night. Sari, 62, was about to pour her tea when her phone
-buzzed.
+Bu Ratna usia 64. Suaminya sudah lima tahun tiada. Anak-anak besar, sibuk
+di kota lain. Setiap hari, WhatsApp adalah jembatannya ke dunia.
 
-> _"URGENT! Akun BCA Anda akan diblokir dalam 1 jam. Verifikasi sekarang_
-> _di http://bca-secure-verify.tk/login atau kirim kode OTP Anda sekarang_
-> _untuk menjaga akses."_
+Suatu malam jam 11, sebuah pesan masuk:
 
-Her hands trembled. The bank's name was right. The urgency felt real. She
-almost typed the OTP from her latest SMS into the chat.
+> _"URGENT! Akun BCA Ibu akan diblokir dalam 1 jam. Verifikasi di_
+> _http://bca-secure-verify.tk/login. Atau kirim kode OTP yang baru saja_
+> _masuk untuk menjaga akses."_
 
-But before she could, another message appeared in the same WhatsApp window —
-from a contact called **🛡 Guardian Angel**:
+Tangan Bu Ratna gemetar. Itu uang pensiun mendiang suami — uang yang
+harus cukup sampai akhir hidupnya. Dia hampir mengetik OTP yang baru
+saja masuk lewat SMS.
+
+Tapi anaknya pernah bilang: _"Bu, kalau ada pesan aneh, forward dulu ke
+kontak Guardian Angel ya."_ Dia ingat, dia forward.
+
+Lima detik kemudian, balasan datang:
 
 > 🛡 _Scam Guardian Verdict_
 >
 > _Threat Level:_ **DANGEROUS**
-> _Type:_ phishing_link
-> _Confidence:_ 95%
+> _Confidence:_ 99%
 >
-> _This message has multiple strong phishing indicators._
+> _Pesan ini sangat berbahaya — kemungkinan besar mencoba mencuri akses_
+> _akun BCA Ibu._
 >
-> _Why I think so:_
-> • URL uses .tk TLD — frequently used by scammers
-> • Domain contains "secure", "bank", "verify" — classic phishing pattern
-> • Asks for OTP — no legitimate bank ever asks for OTP via WhatsApp
-> • Urgency tactic ("1 hour") meant to bypass critical thinking
+> _Kenapa saya pikir begitu:_
+> • Memakai ancaman mendesak ("akun diblokir 1 jam")
+> • Meminta OTP — bank tidak pernah meminta OTP lewat WhatsApp
+> • Domain `.tk` dengan kata "secure" dan "verify" untuk meniru BCA
 >
-> _Recommended action:_ Do NOT click the link. Do NOT share your OTP.
-> Block the sender and call your bank's official number directly.
+> _Recommended action:_ Jangan klik link, jangan kirim OTP. Block pengirim.
+> Hubungi BCA hanya lewat call center resmi 1500888.
 
-Sari put her phone down. She poured the tea. Disaster averted, on a
-Tuesday night, by an AI agent that never sleeps.
+Bu Ratna menarik napas. Dia tidak mengetik apa-apa. Dia block nomor itu.
+Malam itu, dia tidur dengan tabungan yang masih utuh.
 
-This is **Whatsapp Guardian Angel**.
+> 📖 _Cerita lengkap dan latar belakang project ada di_
+> _**[`docs/CERITA.md`](docs/CERITA.md)** — kenapa kami bangun ini, untuk_
+> _siapa, dan apa yang Guardian Angel **bukan** lakukan._
+
+Project ini dibuat untuk satu tujuan sederhana: kalau dipasang di
+handphone ibu kami sendiri, kami bisa tidur lebih nyenyak.
 
 ---
 
@@ -65,7 +76,7 @@ This is **Whatsapp Guardian Angel**.
 
 You forward any suspicious WhatsApp message — text, link, screenshot
 caption, anything — to the Guardian Angel's WhatsApp number. Within
-seconds, it replies with a verdict:
+seconds, it replies with a verdict in **Bahasa Indonesia**:
 
 | Threat Level | Meaning | What you should do |
 |---|---|---|
