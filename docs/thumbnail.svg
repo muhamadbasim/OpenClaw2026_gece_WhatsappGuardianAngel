@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- 3:2 ratio, 1200x800 px — perfect for Devpost thumbnail -->
+
+  <!-- Background gradient: deep night blue to softer blue (calm, protective) -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#0E4F3F"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#25D366"/>
+      <stop offset="100%" stop-color="#128C7E"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid pattern for depth -->
+  <g opacity="0.06" fill="#FFFFFF">
+    <circle cx="100" cy="100" r="2"/>
+    <circle cx="200" cy="150" r="2"/>
+    <circle cx="300" cy="80" r="2"/>
+    <circle cx="450" cy="120" r="2"/>
+    <circle cx="600" cy="60" r="2"/>
+    <circle cx="780" cy="140" r="2"/>
+    <circle cx="950" cy="100" r="2"/>
+    <circle cx="1100" cy="180" r="2"/>
+    <circle cx="80" cy="650" r="2"/>
+    <circle cx="250" cy="700" r="2"/>
+    <circle cx="420" cy="720" r="2"/>
+    <circle cx="600" cy="680" r="2"/>
+    <circle cx="800" cy="720" r="2"/>
+    <circle cx="980" cy="680" r="2"/>
+    <circle cx="1130" cy="650" r="2"/>
+  </g>
+
+  <!-- Big Shield -->
+  <g transform="translate(160, 220)" filter="url(#glow)">
+    <path d="M 130 0 L 240 50 L 240 180 Q 240 280 130 340 Q 20 280 20 180 L 20 50 Z"
+          fill="url(#shield)" stroke="#FFFFFF" stroke-width="4" opacity="0.95"/>
+    <!-- Checkmark inside shield -->
+    <path d="M 75 175 L 115 215 L 195 130"
+          fill="none" stroke="#FFFFFF" stroke-width="14"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="500" y="280" font-family="Helvetica, Arial, sans-serif"
+        font-size="76" font-weight="800" fill="#FFFFFF">
+    Guardian Angel
+  </text>
+
+  <!-- Subtitle line 1 -->
+  <text x="500" y="340" font-family="Helvetica, Arial, sans-serif"
+        font-size="36" font-weight="500" fill="#25D366">
+    AI Anti-Scam untuk WhatsApp
+  </text>
+
+  <!-- Tagline -->
+  <text x="500" y="440" font-family="Helvetica, Arial, sans-serif"
+        font-size="32" font-weight="400" fill="#CBD5E1" font-style="italic">
+    Forward pesan curiga →
+  </text>
+  <text x="500" y="485" font-family="Helvetica, Arial, sans-serif"
+        font-size="32" font-weight="400" fill="#CBD5E1" font-style="italic">
+    verdict AI dalam 5 detik.
+  </text>
+
+  <!-- Bottom strip with quote -->
+  <rect x="0" y="650" width="1200" height="150" fill="#000000" opacity="0.35"/>
+  <text x="600" y="710" font-family="Georgia, serif" font-size="28"
+        fill="#FFFFFF" text-anchor="middle" font-style="italic">
+    "Lima detik kadang cukup
+  </text>
+  <text x="600" y="750" font-family="Georgia, serif" font-size="28"
+        fill="#FFFFFF" text-anchor="middle" font-style="italic">
+    untuk menyelamatkan tabungan setahun."
+  </text>
+
+  <!-- Hackathon badge top-right -->
+  <g transform="translate(900, 60)">
+    <rect x="0" y="0" width="260" height="60" rx="30" fill="#FFFFFF" opacity="0.12"/>
+    <text x="130" y="40" font-family="Helvetica, Arial, sans-serif"
+          font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">
+      OpenClaw Agenthon 2026
+    </text>
+  </g>
+
+  <!-- Team badge bottom-right corner -->
+  <text x="1170" y="635" font-family="Helvetica, Arial, sans-serif"
+        font-size="20" font-weight="600" fill="#94A3B8" text-anchor="end">
+    Team Gece 🛡
+  </text>
+</svg>
