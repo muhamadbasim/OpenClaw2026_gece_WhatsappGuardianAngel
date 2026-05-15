@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  guardian:
+    build: .
+    container_name: whatsapp-scam-guardian
+    ports:
+      - "8080:8080"
+    volumes:
+      - guardian-data:/data
+    env_file:
+      - .env
+    restart: unless-stopped
+
+volumes:
+  guardian-data:

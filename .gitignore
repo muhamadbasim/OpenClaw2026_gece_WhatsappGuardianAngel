@@ -1,0 +1,56 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+*.token
+*.key
+*.pem
+auth-state/
+credentials/
+sessions/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OpenClaw runtime state (DO NOT commit auth or credentials)
+.openclaw/credentials/
+.openclaw/agents/*/sessions/
+.openclaw/agents/*/agent/
+.openclaw/logs/
+.openclaw/memory/
+.openclaw/openclaw.json
+.openclaw/openclaw.json.bak*
+.openclaw/openclaw.json.last-good
+.openclaw/gateway-supervisor-restart-handoff.json
+.openclaw/update-check.json
+.openclaw/extensions/whatsapp/node_modules/
+
+# Logs
+*.log
+logs/
