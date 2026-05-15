@@ -115,6 +115,9 @@ setiap pesan masuk.
 ➡ **Tutorial test step-by-step (Bahasa Indonesia):
 [`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)**
 
+🎬 **Mau bikin video tutorial sendiri? Skrip lengkap siap rekam:
+[`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md)**
+
 ---
 
 **Built for OpenClaw Agenthon 2026** · Indonesian hackathon, 12-hour
