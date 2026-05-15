@@ -9,6 +9,19 @@
 
 ---
 
+## 🚀 Mau langsung coba bot-nya?
+
+> 📱 **Simpan nomor:** `+62 823-1399-6991` (nama: 🛡 Guardian Angel)
+>
+> Forward pesan WhatsApp mencurigakan ke nomor ini → balasan verdict
+> dalam ~5 detik. Bisa juga di-add ke grup keluarga / komunitas untuk
+> auto-scan setiap pesan.
+>
+> ➡ **Tutorial test lengkap (Bahasa Indonesia):
+> [`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)**
+
+---
+
 ## 🌙 The Story
 
 It was a Tuesday night. Sari, 62, was about to pour her tea when her phone
@@ -111,13 +124,6 @@ heuristics + GPT-4o-mini structured outputs.
 ---
 
 ## ⚡ Quick Start (5 minutes)
-
-### Want to just **try the live bot** right now?
-
-The Guardian Angel is already deployed and listening on
-**+62 823-1399-6991**. Save the number and message it from any WhatsApp.
-See **[`docs/HOW_TO_TEST.md`](docs/HOW_TO_TEST.md)** for ready-to-copy
-test messages.
 
 ### Option 1 — Terminal demo (no WhatsApp setup)
 
